@@ -1,0 +1,40 @@
+{"clients":[
+    {"id":1,
+    "name":"Gamestop",
+    "domain":"Manufacturing",
+    "managerId":2,
+    "revenuePerYear":"10M"
+},
+{
+    "id":2,
+    "name":"Tesla",
+    "domain":"Analytics",
+    "managerId":1,
+    "revenuePerYear":"5M"
+},
+{
+    "id":3,
+    "name":"Toyota",
+    "domain":"Manufacturing",
+    "managerId":3,
+    "revenuePerYear":"8M"
+},
+{
+    "id":4,
+    "name":"Ford",
+    "domain":"Manufacturing",
+    "managerId":1,
+    "revenuePerYear":"6M"
+},
+{
+    "id":5,
+    "name":"Chevrolet",
+"domain":"Manufacturing",
+    "managerId":1,
+    "revenuePerYear":"12M"
+}],
+"managers":[
+    {"id":1,"name":"Ramraj Kuppal Mothilal"},
+    {"id":2,"name":"Bujjikonda Vedantam"},
+    {"id":3,"name":"Perumala Venkata Ramesh Babu"}
+]}
