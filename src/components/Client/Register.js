@@ -14,9 +14,9 @@ const Amat = () => {
         e.preventDefault();
         console.log(formData)
     }
-
+    
     return <Fragment>
-        <h1 className="large text-primary">Clinet Info</h1>
+        <h1 className="large text-primary">Client Info</h1>
         <p className="lead"><i className="fas fa-user"></i> Add Client Info</p>
         <form className="form" onSubmit={e =>onSubmit(e)}>
 
@@ -27,7 +27,7 @@ const Amat = () => {
             name="idtag" 
             value={idtag}
             onChange={e=>onChange(e)}
-            />
+            required/>
           </div>
 
           <div className="form-group">
@@ -70,12 +70,12 @@ const Amat = () => {
                 required />
           </div>
 
-          <input type="submit" className="btn btn-primary" value="Register" />
+          <input type="submit" className="btn btn-primary" value="Register"/>
         </form>
         {/* <p class="my-1">
           Already have an account? <a href="login.html">Sign In</a>
         </p> */}
-        
+       
         </Fragment>  
         
   }
