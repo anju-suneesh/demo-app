@@ -10,8 +10,7 @@ const About = () => {
           <img
             className="round-img my-1"
             src="https://icons-for-free.com/iconfiles/png/512/business+finance+marketing+notebook+woman+icon-1320073244553154330.png"
-            //src="https://previews.123rf.com/images/powerart/powerart1708/powerart170804949/84519682-isolated-programmer-icon-symbol-on-clean-background-vector-coder-element-in-trendy-style-.jpg"
-            alt=""
+            alt="Broken Image"
           />
           <h1 className="large">Anju M S</h1>
           <p className="lead">Systems Engineer at Infosys</p>
