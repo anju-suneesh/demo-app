@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import React,{ Fragment } from 'react';
 import Header from './components/Landing Page/Header';
 import Footer from './components/Landing Page/Footer';
@@ -9,7 +9,6 @@ import About from './components/Client/About';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import react from 'react';
 
 function App() {
   console.log(Header)

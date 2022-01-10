@@ -1,4 +1,5 @@
 import React, { Fragment, useState} from "react";
+import Clients from "./Clients";
 
 const Amat = () => {
     const [formData, setFormData] = useState({
@@ -12,7 +13,7 @@ const Amat = () => {
     const onChange = e => setFormData({...formData,[e.target.name]:e.target.value});
     const onSubmit = e => {
         e.preventDefault();
-        console.log(formData)
+        console.log(formData);
     }
     
     return <Fragment>
